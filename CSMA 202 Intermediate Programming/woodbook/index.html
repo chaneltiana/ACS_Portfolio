@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset = "UTF-8">
+
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     
+     <title>Woodbook</title>
+     <link rel = "stylesheet" type="text/css" href="mainStyle.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+ <body>
+   
+    <div class = "navigation">   
+        <div class = "name">WOODBOOK</div>
+    </div>
+    <div class= "info">FIND & SHARE<br>NEW IDEAS</div>
+    <div class = "add-button"><img src="img/add-button.png" style="width:35px;height:35px;"></div>
+
+
+    <div class = "container">
+        <ul>
+                <div class="title"></div>
+            <!--
+            <li> <div class = "title"> Header </div> </li>
+            <li> <div class = "title"> Header </div> </li>
+            <li> <div class = "title"> Header </div> </li>
+            <li> <div class = "title"> Header </div> </li>
+            <li> <div class = "title"> Header </div> </li>
+            <li> <div class = "title"> Header </div> </li>
+            -->
+        </ul>
+    </div>
+
+    <div class ="modal-new">
+        <div class = "exit-button"><img src = "img/close_button.png" style="width:25px;height:25px;"></div>
+        <div class ="create-new">
+        <h1>Create a New Board</h1>
+            <div class="textbox1">
+                <!-- <div class = "board-alert">This board already exists.</div> -->
+                <input type="text" id="board-name" placeholder="Board Name" name="" value="">
+            </div>
+
+            <button id="create-button">Create Board</button>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+
+ </body>
+</html>

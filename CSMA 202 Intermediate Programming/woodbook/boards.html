@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>FIND & SHARE NEW IDEAS</title>
+  <link rel = "stylesheet" type="text/css" href="mainStyle.css">
+</head>
+<body>
+
+    <!-- BOARDS -->
+    <div class= "social-container">
+      <div class = "modal">
+      <div class = "close-button"><img src = "img/close_button.png" style="width:25px;height:25px;"></div>
+          <div class = "board">
+
+              <div class="chat-form">
+                  <textarea id="new-message-msg"></textarea>
+                  <button id="new-message-submit">Send</button>
+                  <input type="file" id="new-message-image" >
+                  <label for = "new-message-image"><img src = "img/upload.png" style="width:20px;height:20px;display:block;margin:auto;"></label>
+                  <img id="new-message-image-preview" height="100" alt=" ">
+                  <div class="exit-image">Clear Image</div>
+              </div>              
+
+              
+              <div class = "chatlogs">
+                  <div class = "chat-other">
+                      <div class = "board-type"></div> 
+                      <div id = "messages"></div> 
+                      <img id="message-image" height="200">
+                   </div>
+               </div>
+
+          </div>
+       </div>
+  </div>
+
+  <div class id="result"></div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="boards.js"></script>
+
+</body>
+</html>
